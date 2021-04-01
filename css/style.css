@@ -185,37 +185,96 @@
 
 /* esercizio 12 */
 .ex-12-button:hover .ex-12-top-white {
-    animation: top 2s linear 1;
+    animation: top-12 2s linear 1;
 }
-@keyframes top {
+@keyframes top-12 {
     from {
-        top: -10px;
+        top: -13px;
         left: 10%;
     }
     50% {
-        top:-10px;
+        top:-13px;
         left: calc(100% - 60px);    
     }
     to {
-        top: -10px;
+        top: -13px;
         left: 10%;
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: bottom 2s linear 1;
+    animation: bottom-12 2s linear 1;
 }
-@keyframes bottom {
+@keyframes bottom-12 {
     from {
-        top: 55px;
+        top: 54px;
         left: calc((200px - 20%) - 66px);
         }
     50% {
-        /* background-color: black; */
-        top: 55px;
+        top: 54px;
         left: 0;    
     }
     to {
-        top: 55px;
+        top: 54px;
+        left: calc((200px - 20%) - 66px);
+        }
+}
+
+/* esercizio 13 */
+.ex-13-button:hover .ex-13-top-white {
+    animation: top-13 2s linear 1;
+}
+@keyframes top-13 {
+    from {
+        top: -13px;
+        left: 10%;
+        }
+    20% {
+        top:-13px;
+        left: 170px;    
+    }
+    40% {
+        top: 54px;
+        left: 170px;    
+    }
+    60% {
+        top: 54px;
+        left: -30px;
+    }
+    80% {
+        top: -13px;
+        left: -30px;
+    }
+    to {
+        top: -13px;
+        left: 10%;
+        }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: bottom-13 2s linear 1;
+}
+@keyframes bottom-13 {
+    from {
+        top: 54px;
+        left: calc((200px - 20%) - 66px);
+        }
+    20% {
+        top: 54px;
+        left: -33px;
+    }
+    40% {
+        top: -13px;
+        left: -33px;    
+    }
+    60% {
+        top: -13px;
+        left: calc(200px - 33px);
+    }
+    80% {
+        top: 54px;
+        left: calc(200px - 33px);
+    }
+    to {
+        top: 54px;
         left: calc((200px - 20%) - 66px);
         }
 }
