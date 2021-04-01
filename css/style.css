@@ -153,3 +153,16 @@
     transform: scale(1.5);
     transition: all 1s linear;
 }
+
+/* esercizio 10 */
+.ex-10-icon {
+    animation: animated 1s linear infinite reverse;
+}
+@keyframes animated {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
