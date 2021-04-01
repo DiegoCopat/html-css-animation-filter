@@ -98,3 +98,23 @@
 }
 
 /* esercizio 4 */
+.ex-4-square {
+    transition: 1s linear;
+}
+.ex-4-square:hover {
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+/* esercizio 5 */
+.ex-5-square {
+    transition: 0.5s linear; 
+}
+.ex-5-square:hover {
+    transform: scale(2, 2);
+    transition: transform 0.5s linear;
+}
+.ex-5-square:active {
+    transform: scale(0.5, 0.5);
+    transition: transform 0.5s linear;
+}
