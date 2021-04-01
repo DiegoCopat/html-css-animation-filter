@@ -166,3 +166,19 @@
         transform: rotate(359deg);
     }
 }
+
+/* esercizio 11 */
+.ex-11-icon:hover {
+    animation: animator 2s linear 1;
+}
+@keyframes animator {
+    from {
+        transform: rotate(0deg);
+    }
+    90% {
+        transform: rotate(300deg)
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
